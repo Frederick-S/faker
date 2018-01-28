@@ -1,1 +1,1 @@
-# faker
+# faker [![CircleCI](https://circleci.com/gh/Frederick-S/faker.svg?style=shield)](https://circleci.com/gh/Frederick-S/faker) [![codecov](https://codecov.io/gh/Frederick-S/faker/branch/master/graph/badge.svg)](https://codecov.io/gh/Frederick-S/faker)
