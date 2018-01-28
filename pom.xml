@@ -6,9 +6,41 @@
     <groupId>com.github.frederick-s</groupId>
     <artifactId>faker</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <name>faker</name>
+    <description>A simple data faker</description>
+    <url>https://github.com/Frederick-S/faker</url>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <scm>
+        <connection>scm:git@github.com:Frederick-S/faker.git</connection>
+        <developerConnection>scm:git@github.com:Frederick-S/faker.git</developerConnection>
+        <url>git@github.com:Frederick-S/faker.git</url>
+    </scm>
+    <developers>
+        <developer>
+            <name>Frederick-S</name>
+            <email>mao_xiaodan@hotmail.com</email>
+        </developer>
+    </developers>
     <properties>
         <java.version>1.8</java.version>
     </properties>
+    <distributionManagement>
+        <snapshotRepository>
+            <id>oss-snapshots</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>oss-release</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+        </repository>
+    </distributionManagement>
     <dependencies>
         <dependency>
             <groupId>org.projectlombok</groupId>
